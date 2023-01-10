@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply antialiased bg-slate-800 text-slate-300 font-medium;
+    }
+    h1 {
+        @apply text-6xl font-bold text-slate-100 mb-2 underline underline-offset-8 decoration-indigo-500;
+    }
+    h2 {
+        @apply text-2xl font-bold text-slate-100 mb-1;
+    }
+    p {
+        @apply my-4;
+    }
+    a {
+        @apply hover:text-slate-500;
+    }
+}

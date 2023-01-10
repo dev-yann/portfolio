@@ -1,0 +1,3 @@
+interface IAllDevToResponse {
+    title: string
+}
