@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3 py-10">
+  <div class="grid grid-cols-4 py-10">
     <div>
       <h2>Social</h2>
       <ul>
@@ -33,10 +33,25 @@
         </li>
       </ul>
     </div>
+    <div>
+      <h2>Enterprise</h2>
+      <ul>
+        <li>
+          Yann Dumas
+        </li>
+        <li>
+          SIREN : 852814276
+        </li>
+        <li>
+          NAF : 6201Z PROGRAMMATION INFORMATIQUE
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style scoped>
 
